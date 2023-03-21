@@ -59,10 +59,10 @@ You can also retrain the model on SUN3D by modifying related settings in `core\c
 This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
 
 ```
-@article{zhang2019oanet,
+@inproceedings{zhang2019oanet,
   title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
   author={Zhang, Jiahui and Sun, Dawei and Luo, Zixin and Yao, Anbang and Zhou, Lei and Shen, Tianwei and Chen, Yurong and Quan, Long and Liao, Hongen},
-  journal={International Conference on Computer Vision},
+  journal={Proceedings of the IEEE/CVF international conference on computer vision},
   year={2019}
 }
 ```
