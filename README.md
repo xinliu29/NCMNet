@@ -42,18 +42,18 @@ python sun3d.py
 # Testing and Training Model
 We provide a pretrained model on YFCC100M. The results in our paper can be reproduced by running the test script:
 ```bash
-cd core 
+cd code 
 python main.py --run_mode=test --model_path=../model/yfcc --res_path=../model/yfcc 
 ```
 Set `--use_ransac=True` to get results after RANSAC post-processing.
 
 If you want to retrain the model on YFCC100M, run the tranining script.
 ```bash
-cd core 
+cd code 
 python main.py 
 ```
 
-You can also retrain the model on SUN3D by modifying related settings in `core\config.py`.
+You can also retrain the model on SUN3D by modifying related settings in `code\config.py`.
 
 # Acknowledgement
 This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
