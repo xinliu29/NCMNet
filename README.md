@@ -42,7 +42,7 @@ python sun3d.py
 # Testing and Training Model
 We provide a pretrained model on YFCC100M. The results in our paper can be reproduced by running the test script:
 ```bash
-cd ./core 
+cd core 
 python main.py --run_mode=test --model_path=../model/yfcc --res_path=../model/yfcc 
 ```
 Set `--use_ransac=True` to get results after RANSAC post-processing.
