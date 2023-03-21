@@ -18,16 +18,17 @@ If you find the NCMNet code useful, please consider citing:
 }
 ```
 
-# Data Preparing
+# Preparing Data
 The code of this part is partially borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. Please follow their instructions to download the training and testing data.
+```bash
+bash download_data.sh raw_data raw_data_yfcc.tar.gz 0 8 ## YFCC100M
+tar -xvf raw_data_yfcc.tar.gz
 
-    bash download_data.sh raw_data raw_data_yfcc.tar.gz 0 8 ## YFCC100M
-    tar -xvf raw_data_yfcc.tar.gz
-
-    bash download_data.sh raw_sun3d_test raw_sun3d_test.tar.gz 0 2 ## SUN3D
-    tar -xvf raw_sun3d_test.tar.gz
-    bash download_data.sh raw_sun3d_train raw_sun3d_train.tar.gz 0 63
-    tar -xvf raw_sun3d_train.tar.gz
+bash download_data.sh raw_sun3d_test raw_sun3d_test.tar.gz 0 2 ## SUN3D
+tar -xvf raw_sun3d_test.tar.gz
+bash download_data.sh raw_sun3d_train raw_sun3d_train.tar.gz 0 63
+tar -xvf raw_sun3d_train.tar.gz
+```
  
 After downloading the datasets, the initial matches for YFCC100M and SUN3D can be generated as following. Here we provide descriptors for SIFT (default), ORB, and SuperPoint.
 ```bash
@@ -37,5 +38,20 @@ python yfcc.py
 python extract_feature.py --input_path=../raw_data/sun3d_test
 python sun3d.py
 ```
-Generate SUN3D training data if you need by following the same procedure and uncommenting corresponding lines in `sun3d.py`.
+
+# Testing and Training Model
+We provide a pretrained model on YFCC100M. The results in our paper can be reproduced by running the test script:
+```bash
+cd ./core 
+python main.py --run_mode=test --model_path=../model/yfcc --res_path=../model/yfcc 
+```
+Set `--use_ransac=True` to get results after RANSAC post-processing.
+
+If you want to retrain the model for YFCC100M, run the tranining script.
+```bash
+cd core 
+python main.py
+```
+
+You can also retrain the model for SUN3D by related settings in `core\config.py'
     
