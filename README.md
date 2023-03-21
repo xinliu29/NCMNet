@@ -56,7 +56,7 @@ python main.py
 You can also retrain the model on SUN3D by modifying related settings in `core\config.py`.
 
 # Acknowledgement
-This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing and evaluation, you should cite these papers:
+This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
 
 ```
 @article{zhang2019oanet,
