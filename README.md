@@ -10,7 +10,7 @@ Please use Python 3.6, opencv-contrib-python (3.4.0.12) and Pytorch (>= 1.1.0). 
 If you find the NCMNet code useful, please consider citing:
 
 ```bibtex
-@inproceedings{liu2023progressive,
+@inproceedings{liu2023ncmnet,
   title={Progressive Neighbor Consistency Mining for Correspondence Pruning},
   author={Liu, Xin and Yang, Jufeng},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision.},
@@ -47,11 +47,30 @@ python main.py --run_mode=test --model_path=../model/yfcc --res_path=../model/yf
 ```
 Set `--use_ransac=True` to get results after RANSAC post-processing.
 
-If you want to retrain the model for YFCC100M, run the tranining script.
+If you want to retrain the model on YFCC100M, run the tranining script.
 ```bash
 cd core 
-python main.py
+python main.py 
 ```
 
-You can also retrain the model for SUN3D by related settings in `core\config.py'
+You can also retrain the model on SUN3D by modifying related settings in `core\config.py`.
+
+# Acknowledgement
+This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing and evaluation, you should cite these papers:
+
+```
+@article{zhang2019oanet,
+  title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
+  author={Zhang, Jiahui and Sun, Dawei and Luo, Zixin and Yao, Anbang and Zhou, Lei and Shen, Tianwei and Chen, Yurong and Quan, Long and Liao, Hongen},
+  journal={International Conference on Computer Vision},
+  year={2019}
+}
+```
+```bibtex
+@inproceedings{zhao2021clnet,
+  title={Progressive Correspondence Pruning by Consensus Learning},
+  author={Zhao, Chen and Ge, Yixiao and Zhu, Feng and Zhao, Rui and Li, Hongsheng and Salzmann, Mathieu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision.},
+  year={2021}
+}
     
