@@ -7,7 +7,7 @@ Please use Python 3.6, opencv-contrib-python (3.4.0.12) and Pytorch (>= 1.1.0). 
 
 
 # Citing NCMNet
-If you find the CLNet code useful, please consider citing:
+If you find the NCMNet code useful, please consider citing:
 
 ```bibtex
 @inproceedings{liu2023progressive,
