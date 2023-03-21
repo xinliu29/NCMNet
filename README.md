@@ -19,7 +19,7 @@ If you find the NCMNet code useful, please consider citing:
 ```
 
 # Data Processing
-The code of this part is partially borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CNe](https://github.com/vcg-uvic/learned-correspondence-release)]. Please follow their instructions to download the training and testing data.
+The code of this part is borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet]([https://github.com/vcg-uvic/learned-correspondence-release](https://github.com/sailor-z/CLNet))]. Please follow their instructions to download the training and testing data.
 
     bash download_data.sh raw_data raw_data_yfcc.tar.gz 0 8 ## YFCC100M
     tar -xvf raw_data_yfcc.tar.gz
