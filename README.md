@@ -13,7 +13,7 @@ If you find the NCMNet code useful, please consider citing:
 @inproceedings{liu2023ncmnet,
   title={Progressive Neighbor Consistency Mining for Correspondence Pruning},
   author={Liu, Xin and Yang, Jufeng},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision.},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2023}
 }
 ```
@@ -61,7 +61,7 @@ This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[
 @inproceedings{zhang2019oanet,
   title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
   author={Zhang, Jiahui and Sun, Dawei and Luo, Zixin and Yao, Anbang and Zhou, Lei and Shen, Tianwei and Chen, Yurong and Quan, Long and Liao, Hongen},
-  journal={Proceedings of the IEEE/CVF international conference on computer vision},
+  journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2019}
 }
 @inproceedings{zhao2021clnet,
