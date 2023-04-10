@@ -67,7 +67,7 @@ This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[
 @inproceedings{zhao2021clnet,
   title={Progressive Correspondence Pruning by Consensus Learning},
   author={Zhao, Chen and Ge, Yixiao and Zhu, Feng and Zhao, Rui and Li, Hongsheng and Salzmann, Mathieu},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision.},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2021}
 }
 ```  
