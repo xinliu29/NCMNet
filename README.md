@@ -11,10 +11,12 @@ If you find the NCMNet code useful, please consider citing:
 
 ```bibtex
 @inproceedings{liu2023ncmnet,
-  title={Progressive Neighbor Consistency Mining for Correspondence Pruning},
-  author={Liu, Xin and Yang, Jufeng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023}
+  author    = {Liu, Xin and Yang, Jufeng},
+  title     = {Progressive Neighbor Consistency Mining for Correspondence Pruning},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2023},
+  pages     = {9527-9537}
 }
 ```
 
