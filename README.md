@@ -10,9 +10,9 @@ Correspondence pruning plays a crucial role in a variety of feature matching bas
 
 
 # ICNet Pipeline
-Framework of our NCMNet. $N\times 4$ initial correspondences are established as inputs, then, the parametric model and $N\times 1$ inlier probabilities are estimated. The iterative pruning strategy containing two pruning modules is adopted as the core architecture to distill more reliable candidates for model estimation. Each pruning module includes several existing network structures and the proposed Neighbor Consistency (NC) block. NC block mainly consists of three key parts: the construction of three neighbor embeddings ($\mathcal{G}^S, \mathcal{G}^F, \mathcal{G}^G$), Self-Context Extraction (SCE) layer to capture and aggregate intra-neighbor context ($ C^S, C^F, C^G $), and Cross-Context Interaction (CCI) layer to fuse and modulate inter-neighbor information ($I^S, I^F, I^G$). CS: the coordinate space, FS: the feature space, GS: the global-graph space.
+Framework of our NCMNet. $N\times 4$ initial correspondences are established as inputs, then, the parametric model and $N\times 1$ inlier probabilities are estimated. The iterative pruning strategy containing two pruning modules is adopted as the core architecture to distill more reliable candidates for model estimation. Each pruning module includes several existing network structures and the proposed Neighbor Consistency (NC) block. NC block mainly consists of three key parts: the construction of three neighbor embeddings ($\mathcal{G}^S, \mathcal{G}^F, \mathcal{G}^G$), Self-Context Extraction (SCE) layer to capture and aggregate intra-neighbor context ($C^S, C^F, C^G$), and Cross-Context Interaction (CCI) layer to fuse and modulate inter-neighbor information ($I^S, I^F, I^G$). CS: the coordinate space, FS: the feature space, GS: the global-graph space.
 <p align="center">
-  <img width="80%" src="./Figure/FIG2.png">
+  <img width="95%" src="./Figure/FIG2.png">
 </p>
  <br/>
 
