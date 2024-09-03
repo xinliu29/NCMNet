@@ -24,7 +24,7 @@ Please use Python 3.6, opencv-contrib-python (3.4.0.12) and Pytorch (>= 1.1.0). 
 # Citing NCMNet
 If you find the NCMNet code useful, please consider citing:
 ```bibtex
-@article{feng2023ic9600,
+@article{liu2024ncmnet,
   title={NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning},
   author={Liu, Xin and Qin, Rong and Yan, Junchi and Yang, Jufeng},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
