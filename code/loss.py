@@ -6,9 +6,9 @@ import torch.nn.functional as F
 
 def batch_episym(x1, x2, F):
     batch_size, num_pts = x1.shape[0], x1.shape[1]
-    x1 = torch.cat([x1, x1.new_ones(batch_size, num_pts, 1)], dim=-1).reshape(batch_size, num_pts, 3, 1)
-    x2 = torch.cat([x2, x2.new_ones(batch_size, num_pts, 1)], dim=-1).reshape(batch_size, num_pts, 3, 1)
-    F = F.reshape(-1, 1, 3, 3).repeat(1, num_pts, 1, 1)
+    x1 = torch.cat([x1, x1.new_ones(batch_size, num_pts, 1)], dim=-1).reshape(batch_size, num_pts, 3, 1).cpu()
+    x2 = torch.cat([x2, x2.new_ones(batch_size, num_pts, 1)], dim=-1).reshape(batch_size, num_pts, 3, 1).cpu()
+    F = F.reshape(-1, 1, 3, 3).repeat(1, num_pts, 1, 1).cpu()
     x2Fx1 = torch.matmul(x2.transpose(2, 3), torch.matmul(F, x1)).reshape(batch_size, num_pts)
     Fx1 = torch.matmul(F, x1).reshape(batch_size, num_pts, 3)
     Ftx2 = torch.matmul(F.transpose(2, 3), x2).reshape(batch_size, num_pts, 3)
