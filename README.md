@@ -59,7 +59,7 @@ python main.py
 You can also retrain the model on SUN3D by modifying related settings in `code\config.py`.
 
 # Demo
-We provide a fast running demo. You can also use any two images to generate the initial correspondences and pruning results.
+We provide a fast running demo. You can also use any two images to generate the initial correspondences and pruning results. Please note the distinction between our conference and journal models.
 
 ```bash
 cd demo 
