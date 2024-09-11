@@ -65,6 +65,12 @@ We provide a fast running demo. You can also use any two images to generate the 
 cd demo 
 python demo.py 
 ```
+We also give an example for the pruning results of NCMNet+.
+
+<p align="center">
+  <img width="95%" src="./Figure/demo.png">
+</p>
+ <br/>
 
 # Citing NCMNet
 If you find the NCMNet code useful, please consider citing:
