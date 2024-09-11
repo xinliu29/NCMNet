@@ -21,30 +21,6 @@ Framework of our NCMNet. $N\times 4$ initial correspondences are established as 
 Please use Python 3.6, opencv-contrib-python (3.4.0.12) and Pytorch (>= 1.1.0). Other dependencies should be easily installed through pip or conda.
 
 
-# Citing NCMNet
-If you find the NCMNet code useful, please consider citing:
-```bibtex
-@article{liu2024ncmnet,
-  title={NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning},
-  author={Liu, Xin and Qin, Rong and Yan, Junchi and Yang, Jufeng},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  number={},
-  pages={1--19},
-  year={2024},
-  publisher={IEEE}
-}
-```
-```bibtex
-@inproceedings{liu2023ncmnet,
-  author    = {Liu, Xin and Yang, Jufeng},
-  title     = {Progressive Neighbor Consistency Mining for Correspondence Pruning},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month     = {June},
-  year      = {2023},
-  pages     = {9527-9537}
-}
-```
-
 # Preparing Data
 Please follow their instructions to download the training and testing data.
 ```bash
@@ -81,6 +57,38 @@ python main.py
 ```
 
 You can also retrain the model on SUN3D by modifying related settings in `code\config.py`.
+
+# Demo
+We provide a fast running demo. You can also use any two images to generate the initial correspondences and pruning results.
+
+```bash
+cd demo 
+python demo.py 
+```
+
+# Citing NCMNet
+If you find the NCMNet code useful, please consider citing:
+```bibtex
+@article{liu2024ncmnet,
+  title={NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning},
+  author={Liu, Xin and Qin, Rong and Yan, Junchi and Yang, Jufeng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  number={},
+  pages={1--19},
+  year={2024},
+  publisher={IEEE}
+}
+```
+```bibtex
+@inproceedings{liu2023ncmnet,
+  author    = {Liu, Xin and Yang, Jufeng},
+  title     = {Progressive Neighbor Consistency Mining for Correspondence Pruning},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2023},
+  pages     = {9527-9537}
+}
+```
 
 # Acknowledgement
 This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
