@@ -6,6 +6,22 @@
 (CVPR 2023) PyTorch implementation of Paper "Progressive Neighbor Consistency Mining for Correspondence Pruning"
 
 
+<div align=center>
+    <h1>ExtDM: NCMNet: Neighbor Consistency Mining Network </br>  for Two-View Correspondence Pruning</h1>
+
+[**Xin Liu**](https://xinliu29.github.io/),
+[**Rong Qin**](https://qinrong-nku.github.io/),
+[**Wentao Cheng**](https://thinklab.sjtu.edu.cn/),
+[**Jufeng Yang**](https://cv.nankai.edu.cn/)
+
+**🎉 Accepted by [TPAMI 2024] 🎉**
+
+[📃 [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
+[📃 [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
+[📦 [Code](https://github.com/xinliu29/NCMNet) ]
+
+</div>
+
 
 ## Abstract
 
