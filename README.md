@@ -7,7 +7,7 @@
 
 
 <div align=center>
-    <h1>ExtDM: NCMNet: Neighbor Consistency Mining Network </br>  for Two-View Correspondence Pruning</h1>
+    <h1>NCMNet: Neighbor Consistency Mining Network </br>  for Two-View Correspondence Pruning</h1>
 
 [**Xin Liu**](https://xinliu29.github.io/),
 [**Rong Qin**](https://qinrong-nku.github.io/),
@@ -18,6 +18,19 @@
 
 [📃 [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
 [📃 [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
+[📦 [Code](https://github.com/xinliu29/NCMNet) ]
+
+</div>
+
+<div align=center>
+    <h1>Progressive Neighbor Consistency Mining </br> for Correspondence Pruning</h1>
+
+[**Xin Liu**](https://xinliu29.github.io/),
+[**Jufeng Yang**](https://cv.nankai.edu.cn/)
+
+**🎉 Accepted by [CVPR 2023] 🎉**
+
+[📃 [Paper](https://xinliu29.github.io/papers/NCMNet/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.pdf) ]
 [📦 [Code](https://github.com/xinliu29/NCMNet) ]
 
 </div>
