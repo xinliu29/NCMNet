@@ -1,10 +1,4 @@
 # NCMNet and NCMNet+
-(TPAMI 2024) PyTorch implementation of Paper "NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning"
-
-<a href="https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf"><img src='https://img.shields.io/badge/中译版-NCMNet+-red' alt='中译版'></a>
-
-(CVPR 2023) PyTorch implementation of Paper "Progressive Neighbor Consistency Mining for Correspondence Pruning"
-
 
 <div align=center>
     <h1>NCMNet: Neighbor Consistency Mining Network </br>  for Two-View Correspondence Pruning</h1>
@@ -14,11 +8,11 @@
 [**Wentao Cheng**](https://thinklab.sjtu.edu.cn/),
 [**Jufeng Yang**](https://cv.nankai.edu.cn/)
 
-**🎉 Accepted by [TPAMI 2024] 🎉**
+** Accepted by [TPAMI 2024] **
 
-[📃 [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
-[📃 [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
-[📦 [Code](https://github.com/xinliu29/NCMNet) ]
+[Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf)
+[中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) 
+[Code](https://github.com/xinliu29/NCMNet) 
 
 </div>
 
@@ -28,7 +22,7 @@
 [**Xin Liu**](https://xinliu29.github.io/),
 [**Jufeng Yang**](https://cv.nankai.edu.cn/)
 
-**🎉 Accepted by [CVPR 2023] 🎉**
+**[CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.html) **
 
 [📃 [Paper](https://xinliu29.github.io/papers/NCMNet/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.pdf) ]
 [📦 [Code](https://github.com/xinliu29/NCMNet) ]
