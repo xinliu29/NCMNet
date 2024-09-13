@@ -97,7 +97,7 @@ If you find the NCMNet code useful, please consider citing:
 ```
 
 # Acknowledgement
-This code is heavily borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
+This code is borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
 ```bibtex
 @inproceedings{zhang2019oanet,
   title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
