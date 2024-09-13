@@ -8,7 +8,7 @@
 [**Wentao Cheng**](https://thinklab.sjtu.edu.cn/),
 [**Jufeng Yang**](https://cv.nankai.edu.cn/)
 
-** Accepted by [TPAMI 2024] **
+**[TPAMI 2024] **
 
 [ [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
 [ [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
