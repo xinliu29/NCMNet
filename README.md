@@ -3,7 +3,7 @@
 
 [**Xin Liu**](https://xinliu29.github.io/),
 [**Rong Qin**](https://qinrong-nku.github.io/),
-[**Wentao Cheng**](https://thinklab.sjtu.edu.cn/),
+[**Junchi Yan**](https://thinklab.sjtu.edu.cn/),
 [**Jufeng Yang**](https://cv.nankai.edu.cn/)
 
 **[TPAMI 2024] **
