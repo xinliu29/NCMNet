@@ -1,5 +1,3 @@
-# NCMNet and NCMNet+
-
 <div align=center>
     <h1>NCMNet: Neighbor Consistency Mining Network </br>  for Two-View Correspondence Pruning</h1>
 
