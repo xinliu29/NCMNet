@@ -8,6 +8,10 @@
 
 **[TPAMI 2024] **
 
+<a href="papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf"><img src='https://img.shields.io/badge/PDF-NCMNet+-red' alt='Paper PDF'></a>
+<a href="papers/NCMNet+/TPAMI_NCMNet_CV.pdf"><img src='https://img.shields.io/badge/中译版-NCMNet+-red' alt='中译版'></a>
+<a href='https://github.com/xinliu29/NCMNet'><img src='https://img.shields.io/badge/Project Page-NCMNet+-yellow' alt='Project Page'></a>	
+
 [ [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
 [ [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
 [ [Code](https://github.com/xinliu29/NCMNet) ]
