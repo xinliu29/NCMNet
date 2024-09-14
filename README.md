@@ -12,10 +12,6 @@
 <a href="https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf"><img src='https://img.shields.io/badge/中译版-NCMNet+-red' alt='中译版'></a>
 <a href='https://github.com/xinliu29/NCMNet'><img src='https://img.shields.io/badge/Project Page-NCMNet+-yellow' alt='Project Page'></a>	
 
-[ [Paper](https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf) ]
-[ [中译版](https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf) ]
-[ [Code](https://github.com/xinliu29/NCMNet) ]
-
 </div>
 
 <div align=center>
@@ -26,8 +22,8 @@
 
 **[CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.html) **
 
-[ [Paper](https://xinliu29.github.io/papers/NCMNet/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.pdf) ]
-[ [Code](https://github.com/xinliu29/NCMNet) ]
+<a href="https://xinliu29.github.io/papers/NCMNet/Liu_Progressive_Neighbor_Consistency_Mining_for_Correspondence_Pruning_CVPR_2023_paper.pdf"><img src='https://img.shields.io/badge/PDF-NCMNet-red' alt='Paper PDF'></a>
+<a href='https://github.com/xinliu29/NCMNet'><img src='https://img.shields.io/badge/Project Page-NCMNet-yellow' alt='Project Page'></a>	
 
 </div>
 
