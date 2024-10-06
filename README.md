@@ -6,7 +6,7 @@
 [**Junchi Yan**](https://thinklab.sjtu.edu.cn/),
 [**Jufeng Yang**](https://cv.nankai.edu.cn/)
 
-**[TPAMI 2024] **
+**[TPAMI 2024](https://ieeexplore.ieee.org/document/10705098) **
 
 <a href="https://xinliu29.github.io/papers/NCMNet+/TPAMI_liuxin_NCMNet.pdf"><img src='https://img.shields.io/badge/PDF-NCMNet+-red' alt='Paper PDF'></a>
 <a href="https://xinliu29.github.io/papers/NCMNet+/TPAMI_NCMNet_CV.pdf"><img src='https://img.shields.io/badge/中译版-NCMNet+-red' alt='中译版'></a>
