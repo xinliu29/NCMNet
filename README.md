@@ -104,8 +104,9 @@ If you find the NCMNet code useful, please consider citing:
   title={NCMNet: Neighbor Consistency Mining Network for Two-View Correspondence Pruning},
   author={Liu, Xin and Qin, Rong and Yan, Junchi and Yang, Jufeng},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  number={},
-  pages={1--19},
+  volume={46},
+  number={12},
+  pages={11254--11272},
   year={2024},
   publisher={IEEE}
 }
