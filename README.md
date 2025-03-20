@@ -97,6 +97,14 @@ We also give an example for the pruning results of NCMNet+.
 </p>
  <br/>
 
+# Jittor
+The code using Jittor Framework is available. You can install the relevant environment according to the provided environment.yml or the [[website](https://cg.cs.tsinghua.edu.cn/jittor/)].
+
+```bash
+cd code_jittor 
+python main.py 
+```
+
 # Citing NCMNet
 If you find the NCMNet code useful, please consider citing:
 ```bibtex
