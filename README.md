@@ -98,7 +98,7 @@ We also give an example for the pruning results of NCMNet+.
  <br/>
 
 # Jittor
-The code using Jittor Framework is available. You can install the relevant environment according to the provided environment.yml or the [[Jittor](https://cg.cs.tsinghua.edu.cn/jittor/)].
+The code using Jittor Framework is available. You can install the relevant environment according to the provided environment.yml or the [[Jittor](https://cg.cs.tsinghua.edu.cn/jittor/)]. Other training and testing settings are consistent with the Pytorch version. 
 
 ```bash
 cd code_jittor 
