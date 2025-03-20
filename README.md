@@ -98,7 +98,7 @@ We also give an example for the pruning results of NCMNet+.
  <br/>
 
 # Jittor
-The code using Jittor Framework is available. You can install the relevant environment according to the provided environment.yml or the [[website](https://cg.cs.tsinghua.edu.cn/jittor/)].
+The code using Jittor Framework is available. You can install the relevant environment according to the provided environment.yml or the [[Jittor](https://cg.cs.tsinghua.edu.cn/jittor/)].
 
 ```bash
 cd code_jittor 
@@ -131,18 +131,4 @@ If you find the NCMNet code useful, please consider citing:
 ```
 
 # Acknowledgement
-This code is borrowed from [[OANet](https://github.com/zjhthu/OANet)] [[CLNet](https://github.com/sailor-z/CLNet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite these papers:
-```bibtex
-@inproceedings{zhang2019oanet,
-  title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
-  author={Zhang, Jiahui and Sun, Dawei and Luo, Zixin and Yao, Anbang and Zhou, Lei and Shen, Tianwei and Chen, Yurong and Quan, Long and Liao, Hongen},
-  journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2019}
-}
-@inproceedings{zhao2021clnet,
-  title={Progressive Correspondence Pruning by Consensus Learning},
-  author={Zhao, Chen and Ge, Yixiao and Zhu, Feng and Zhao, Rui and Li, Hongsheng and Salzmann, Mathieu},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2021}
-}
-```  
+We sincerely thank the [[OANet](https://github.com/zjhthu/OANet)] and [[CLNet](https://github.com/sailor-z/CLNet)] for their contribution of methodological development.
